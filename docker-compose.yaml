@@ -1,0 +1,13 @@
+services:
+  jupyter:
+    build: .
+    image: nocluster_pyspark
+    container_name: jupyter
+    ports:
+      - "8888:8888"
+      - "4040:4040"
+    volumes:
+      - ./notebooks:/opt/spark-notebooks
+    environment:
+      - PYSPARK_PYTHON=python3=value
+      - SPARK_UI_PORT=4040
