@@ -13,4 +13,6 @@ rdd = sc.textFile(inputpath)
 
 # program here
 
+print(rdd.collect())
+
 sc.stop()
