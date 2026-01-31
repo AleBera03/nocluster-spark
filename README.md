@@ -17,6 +17,10 @@ git clone https://github.com/AleBera03/nocluster-spark
 # build the new one
 docker-compose down && docker-compose up -d --build
 ```
+**NB:** if you are using Powershell the syntax `&&` is not recognized, thus run this
+```
+(docker-compose down) -and (docker-compose up -d --build)
+```
 - Now verify that the cointainer *jupyter* is running within **nocluster_setup** (i.e, the name of folder you've created)
 
 ## VSCode
