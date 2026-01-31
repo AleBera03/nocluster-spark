@@ -22,6 +22,6 @@ docker-compose down && docker-compose up -d --build
 ## VSCode
 In order to open folder inside the container you have to follow these steps:
 - install (if you have not the extension yet) [dev container](https://code.visualstudio.com/docs/devcontainers/containers)
-- open _remote explorer_ menu and then _container_
+- open _remote explorer_ menu and then _dev container_ among drop-down list options
 - select _nocluster-spark_ like as showed in the following image
 ![dev_cont](img/dev_cont.png)
