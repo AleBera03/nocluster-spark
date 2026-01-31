@@ -21,7 +21,7 @@ docker-compose down && docker-compose up -d --build
 ```
 (docker-compose down) -and (docker-compose up -d --build)
 ```
-- Now verify that the cointainer *jupyter* is running within **nocluster_setup** (i.e, the name of folder you've created)
+- Now verify with docker desktop that the cointainer *jupyter* is running within **nocluster_spark**
 
 ## VSCode
 In order to open folder inside the container you have to follow these steps:
