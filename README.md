@@ -18,3 +18,10 @@ git clone https://github.com/AleBera03/nocluster-spark
 docker-compose down && docker-compose up -d --build
 ```
 - Now verify that the cointainer *jupyter* is running within **nocluster_setup** (i.e, the name of folder you've created)
+
+## VSCode
+In order to open folder inside the container you have to follow these steps:
+- install (if you have not the extension yet) [dev container](https://code.visualstudio.com/docs/devcontainers/containers)
+- open _remote explorer_ menu and then _container_
+- select _nocluster-spark_ like as showed in the following image
+![dev_cont](img/dev_cont.png)
