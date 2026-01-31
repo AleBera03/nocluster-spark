@@ -9,6 +9,7 @@ outputpath = "output"
 conf = SparkConf().setAppName("example")
 sc = SparkContext(conf=conf)
 sc.setLogLevel("ERROR")
+rdd = sc.textFile(inputpath)
 
 # program here
 
