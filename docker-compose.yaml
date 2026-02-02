@@ -1,7 +1,7 @@
 services:
   jupyter:
     build: .
-    image: nocluster_pyspark
+    image: nocluster_spark_3.5.1
     container_name: jupyter
     ports:
       - "8888:8888"
