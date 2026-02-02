@@ -4,7 +4,7 @@ USER root
 
 RUN apt-get update && \
     apt-get install -y python3-pip python3-dev build-essential vim nano bash-completion && \
-    pip3 install jupyterlab pyspark pyspark-stubs findspark numpy pandas ipython && \
+    pip3 install jupyterlab pyspark==3.5.1 pyspark-stubs findspark numpy pandas ipython && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* && \
     echo ". /usr/share/bash-completion/bash_completion" >> /etc/bash.bashrc
